@@ -1,0 +1,15 @@
+# Guillem Carbonell García, NOV 2013, g@ubik.bz
+# OOIF! Object-Oriented Interactive Fiction (Parser), v. 0.1
+
+1. I am a computer hobbyist.
+2. I am learning Ruby.
+3. This is a parser for text adventures I am working on.
+
+Please, feel free to cooperate. Any help and hint will be very welcome. I will be available trough my email adress.
+
+The tasks that must be done before implementing anyone else are described inside the files. It is necessary:
+  - To implement all the verbs (actions.rb)
+  - To clean the code of redundant information
+  - To refactor some parts
+
+Aditional modules (such as turn-oriented events) will come later, once we have a novel we can explore :)
