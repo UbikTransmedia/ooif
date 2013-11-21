@@ -7,22 +7,26 @@
 
 Please, feel free to cooperate. Any help and hint will be very welcome. I will be available trough my email adress.
 
-The nowadays version works like this:
+$$ The nowadays version works like this:
+
   - game.rb initializes all the game objects and calls to the Game function.
   - The Game function initializes the first vectors of the game, creates the Player, an Actioner and the Command Input.
   - The Command Input takes the strings and converts them into data suitable for the Actioner (actions.rb).
   - the Actioner executes the verbs depending on the user input and modifies the game files (game.rb and instances defined in places.rb and objects.rb).
 
-The tasks that must be done before implementing anyone else are described inside the files. It is necessary:
+$$ The tasks that must be done before implementing anyone else are described inside the files. It is necessary:
+
   - To implement all the verbs (actions.rb)
   - To clean the code of redundant information
   - To refactor some parts
 
-Things that stay unclear:
+$$ Things that stay unclear:
+
   - A milestone system that keeps track of the player's progress ("Combined A with B", "Jumped C", and so).
   - A what-happens-in-the-interact system. So far it is a Hash in game.rb specifying a key that points to an array; the first value specifies the object the key must be combined with, and the second is a Proc of orders that occur if so.
 
-Things that would be great to implement later:
+$$ Things that would be great to implement later:
+
   - NPCs
   - Random encounters
   - Dynamic character stats
